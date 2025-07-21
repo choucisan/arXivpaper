@@ -120,7 +120,7 @@ def extract_tex_from_archive(archive_path, paper_dir, output_base):
         return True
 
 
-def batch_process_latex(root_dir='1', output_dir='processed'):
+def batch_process_latex(root_dir='downloads/cvpr2022', output_dir='processed'):
     os.makedirs(output_dir, exist_ok=True)
     archives = [f for f in os.listdir(root_dir) if f.endswith(('.zip', '.tar.gz', '.tgz'))]
 
