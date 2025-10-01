@@ -19,7 +19,7 @@ For example, the CVPR 2022 dataset can be scraped. The collected accepted paper 
 -	Supports multiple top-tier conferences, including CVPR, NeurIPS, ICLR, ICCV, AAAI, ACL, etc.
 -	Supports bulk downloading of arXiv source files and extraction of fields into TXT files.
 
-⸻
+
 
 ## 🚀 Quick Start
 
